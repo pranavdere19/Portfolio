@@ -3,7 +3,7 @@
 This is my single-page portfolio showcasing my skills, projects, and certifications.
 
 ## Live Link
-[Click here to view portfolio](https://yourusername.github.io/yourrepo/)
+[Click here to view portfolio](https://pranavdere19.github.io/Portfolio1/)
 
 ## Projects
 - Gov360 — Indian government policy explorer.
