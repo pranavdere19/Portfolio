@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Dere | Python Developer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #222; color: #fff; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 2.5em; margin: 0; }
+        header p { font-size: 1.2em; }
+        section { padding: 40px 20px; max-width: 900px; margin: auto; }
+        h2 { color: #333; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        .skills, .projects, .certifications { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .card { background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 20px; }
+        a { color: #007BFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .btn { display: inline-block; padding: 10px 15px; background: #007BFF; color: white; border-radius: 5px; margin: 10px 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pranav Dere</h1>
+        <p>Python Developer | Problem Solver | Lifelong Learner</p>
+        <a href="resume.pdf" class="btn">Download Resume</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Python Developer with a B.Sc. in Computer Science (SPPU, 2025), skilled in Core Python, OOP, File Handling, SQLite, Pandas, Requests, JSON, and Streamlit. I enjoy building impactful applications and aim to join top MNCs like Accenture, Deloitte, or TCS.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">Core Python</div>
+            <div class="card">OOP</div>
+            <div class="card">SQLite</div>
+            <div class="card">Pandas</div>
+            <div class="card">Requests</div>
+            <div class="card">JSON</div>
+            <div class="card">Streamlit</div>
+            <div class="card">GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Gov360</h3>
+                <p>Policy explorer with GUI and real-world Indian government data.</p>
+                <a href="https://github.com/yourusername/Gov360">GitHub Repo</a>
+            </div>
+            <div class="card">
+                <h3>Resume Parser</h3>
+                <p>Tkinter GUI + PDFPlumber for extracting structured resume data.</p>
+                <a href="https://github.com/yourusername/ResumeParser">GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div class="card">Python Programming Certificate</div>
+            <div class="card">Machine Learning Certificate</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/yourformid" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:10px;margin:5px 0;">
+            <input type="email" name="email" placeholder="Your Email" required style="width:100%;padding:10px;margin:5px 0;">
+            <textarea name="message" placeholder="Your Message" required style="width:100%;padding:10px;margin:5px 0;"></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Pranav Dere | Built with ❤️ in Python spirit</p>
+    </footer>
+</body>
+</html>
