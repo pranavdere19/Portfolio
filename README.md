@@ -10,4 +10,4 @@ This is my single-page portfolio showcasing my skills, projects, and certificati
 - Resume Parser — Extract structured data from resumes.
 
 ## Contact
-Email: your-email@example.com
+Email:pranavdere219@gmail.com
